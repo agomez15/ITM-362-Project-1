@@ -1,0 +1,31 @@
+body{
+	background-image: url("back.jpg");
+	font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+}
+p{
+	text-align: center;
+}
+Submit{
+	display: block;
+}
+h1{
+	text-align: center;
+}
+#txtarea{
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+}
+#name{
+	display: block;
+}
+#email{
+	display: block;
+}
+#bday{
+	display: block;
+}
+#pref{
+	display: block;
+}
+
