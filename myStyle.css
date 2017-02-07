@@ -34,3 +34,4 @@ fieldset{
 #radio{
 	display:block;
 }
+form label{font-weight:bold;}
