@@ -5,6 +5,7 @@ body{
 p{
 	text-align: center;
 	font-weight:bold;
+	color: #32CD32;
 }
 
 h1{
@@ -13,7 +14,9 @@ h1{
 fieldset{
 	border: #ff0000 3px solid;
 }
-
+legend{
+	font-weight:bold;
+}
 #txtarea{
 	display: block;
 	margin-left: auto;
