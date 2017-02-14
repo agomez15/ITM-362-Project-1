@@ -220,3 +220,15 @@ textarea {
   -webkit-appearance: button; /* 1 */
   font: inherit; /* 2 */
 }
+h1{
+	text-align: center;
+	color:white;
+}
+h2{
+	text-align: center;
+	color:white;
+}
+p{
+	text-align: center;
+	color:white;
+}
