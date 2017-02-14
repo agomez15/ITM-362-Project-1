@@ -12,18 +12,18 @@
 
 <h1>The Prehistroic Titans are back!</h1>
 
-<form method = "get" form id = "frm1" action ="form_action.asp">
+<form method = "get" action ="#null">
 <p>Did you love Jurassic Park and Jurrassic World? Just love dinosaurs in general? Sign up to get notifications of hiring for positions for the next movie, "Jurrassic World 2" near you!</p>
 <div align="center"><br>
 	<ol>
 		<li id ="name">
 			<label for= "name">Name:</label>
-			<Input type = "text" name = "name" id = "name" placeholder = "i.e Alex Gonzalez"/>
+			<Input type = "text" name = "name" id = "name" pattern = "[A-Za-z]" placeholder = "i.e Alex Gonzalez"/>
 		</li>	
 		<li id = "email">
 	
 			<label for= "email">Email:</label>
-			<Input type = "email" name = "email" id = "email" placeholder = "jerry@yahoo.com"/>
+			<Input type = "email" name = "email" id = "email" pattern = "[0-9] + ([-\,][0-9]+)?" placeholder = "jerry@yahoo.com"/>
 		</li>
 		<li id = "bday">
 			<label for= "Bday">Birthday:</label>
