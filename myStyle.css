@@ -170,6 +170,7 @@ progress {
 
 textarea {
   overflow: auto;
+  display: block;
 }
 
 /**
@@ -220,14 +221,15 @@ textarea {
   -webkit-appearance: button; /* 1 */
   font: inherit; /* 2 */
 }
+label{
+	color:white;
+}
 h1{
 	text-align: center;
 	color:white;
+	font-size: 32px;
 }
-h2{
-	text-align: center;
-	color:white;
-}
+
 p{
 	text-align: center;
 	color:white;
