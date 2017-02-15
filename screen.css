@@ -221,6 +221,10 @@ textarea {
   -webkit-appearance: button; /* 1 */
   font: inherit; /* 2 */
 }
+html{
+text-align: center;	
+}
+
 label{
 	color:white;
 }
@@ -232,5 +236,11 @@ h1{
 
 p{
 	text-align: center;
-	color:white;
+	color:gray;
+}
+textarea{
+	display:block;
+}
+#bday{
+	
 }

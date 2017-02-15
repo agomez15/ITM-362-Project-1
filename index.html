@@ -2,7 +2,7 @@
 <html lang="en" class="nojs">
 <head>
 	<title>Signing Up Today</title>
-	<link rel= "stylesheet" type = "text/css" href= "mystyle.css">
+	<link rel= "stylesheet" type = "text/css" href= "screen.css">
 	 <meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
 	<script src="index.js"></script>
@@ -13,8 +13,8 @@
 <h1>The Prehistroic Titans are back!</h1>
 
 <form method = "get" action ="#null">
-<p>Did you love Jurassic Park and Jurrassic World? Just love dinosaurs in general? Sign up to get notifications of hiring for positions for the next movie, "Jurrassic World 2" near you!</p>
-<div align="center"><br>
+<p>Did you love Jurassic Park and Jurrassic World? Just love dinosaurs in general? Sign up with your email to get notifications of hiring for positions for the next movie, "Jurrassic World 2" near you!</p>
+
 	<ol>
 		<li id ="name">
 			<label for= "name">Name:</label>
@@ -27,29 +27,31 @@
 		</li>
 		<li id = "bday">
 			<label for= "Bday">Birthday:</label>
-			<Input type = "text" name = "bday" id = "bday" placeholder = "1.12.96"/>
+			<Input type = "text" name = "bday" id = "bday" pattern = "[0-9] + (.)?" placeholder = "1.12.96"/>
 		</li>
 	</ol>
 	
 	
-	<label>Choose Contact Method:
+	<label>Choose Positon Interested:
 	<input list="contact" name="myContact" id = "pref" /></label>
 	<datalist id="contact">
-		<option value="Email">
-		<option value="Mail">
-		<option value="Phone Call">
-		<option value="Text">
-		<option value="Carrier Pigon">
-		<option value="Rock with Paper tied to it">
+		<option value="Actor">
+		<option value="Technician">
+		<option value="IT">
+		<option value="Marketing">
+		<option value="Sound">
+		<option value="Make-Up Artist">
 	</datalist>
 	
+	<input type="checkbox" name = "age" value = "age">
+	<label for = "checkbox">I am 18 or older</label>
 	<textarea name= "message" rows ="10" cols="32" id = "txtarea">
 	Enter anymore information you want to tell us!
 	</textarea>
 	
   
 	<Input type = "submit" name = "Submit" value = "Submit" id = "button"/>
-	</div>
+
 </form>
 </body>
 </html>
