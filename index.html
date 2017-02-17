@@ -29,11 +29,18 @@
 			<label for= "Bday">Birthday:</label>
 			<Input type = "text" name = "bday" id = "bday" pattern = "[0-9] + (.)?" placeholder = "1.12.96"/>
 		</li>
+		<li id = "intrest">
+			<label>Choose Positon Interested:</label>
+			<input list="contact" name="myContact" id = "pref" />
+		</li>
+		<li id = "check">
+			<input type="checkbox" name = "age" value = "age">		
+			<label for = "checkbox">I am 18 or older</label>
+		</li>
 	</ol>
 	
 	
-	<label>Choose Positon Interested:
-	<input list="contact" name="myContact" id = "pref" /></label>
+	
 	<datalist id="contact">
 		<option value="Actor">
 		<option value="Technician">
@@ -43,8 +50,7 @@
 		<option value="Make-Up Artist">
 	</datalist>
 	
-	<input type="checkbox" name = "age" value = "age">
-	<label for = "checkbox">I am 18 or older</label>
+	
 	<textarea name= "message" rows ="10" cols="32" id = "txtarea">
 	Enter anymore information you want to tell us!
 	</textarea>
