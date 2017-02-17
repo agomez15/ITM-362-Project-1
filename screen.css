@@ -171,6 +171,8 @@ progress {
 textarea {
   overflow: auto;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /**
@@ -232,15 +234,25 @@ h1{
 	text-align: center;
 	color:white;
 	font-size: 32px;
+	padding-bottom: 0.5em;
 }
 
 p{
 	text-align: center;
 	color:gray;
+	padding-bottom: 0.5em;
 }
 textarea{
 	display:block;
 }
 #bday{
-	
+	padding-bottom: 0.5em;
+}
+#email{
+	padding-bottom: 0.5em;
+}
+#name{
+	padding-bottom: 0.5em;
+}
+	padding-top: 0.5em;
 }
