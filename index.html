@@ -5,7 +5,7 @@
 	<link rel= "stylesheet" type = "text/css" href= "screen.css">
 	 <meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
-	<script src="index.js"></script>
+	
 </head>
 <body background ="new.jpg">
 
@@ -13,6 +13,8 @@
 <h1>The Prehistroic Titans are back!</h1>
 
 <form method = "get" action ="#null">
+
+<script src="script.js"></script>
 <p>Did you love Jurassic Park and Jurrassic World? Just love dinosaurs in general? Sign up with your email to get notifications of hiring for positions for the next movie, "Jurrassic World 2" near you!</p>
 
 	<ol>
@@ -50,14 +52,16 @@
 		<option value="Make-Up Artist">
 	</datalist>
 	
-	
-	<textarea name= "message" rows ="10" cols="32" id = "txtarea">
-	Enter anymore information you want to tell us!
-	</textarea>
-	
-  
-	<Input type = "submit" name = "Submit" value = "Submit" id = "button"/>
+	<a href="#" data-reveal-id="myModal">Click Me For A Modal</a>
 
+  <div id="myModal" class="reveal-modal" data-reveal>
+    <h2>Awesome</h2>
+    <div id="player"></div>
+    <a class="close-reveal-modal">&#215;</a>
+  </div>
+	<p id = "bye" style="display:none">Congrats, we have your submission and will hopefully get back to you shortly!</p>
+	<Input type = "submit" name = "Submit" onclick="document.getElementById('demo').style.display='block'"value = "Submit" id = "button"/>
+	</script>
 </form>
 </body>
 </html>

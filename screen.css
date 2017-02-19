@@ -229,6 +229,7 @@ text-align: center;
 
 label{
 	color:white;
+	display:block;
 }
 h1{
 	text-align: center;
@@ -256,4 +257,10 @@ textarea{
 }
 #check{
 	padding-bottom: 0.5em;
+}
+#interest{
+	padding-bottom: 0.5em;
+}
+#bye{
+	color:white;
 }
