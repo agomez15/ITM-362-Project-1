@@ -228,7 +228,7 @@ text-align: center;
 }
 
 label{
-	color:white;
+	color:yellow;
 	display:block;
 }
 h1{
@@ -236,15 +236,14 @@ h1{
 	color:white;
 	font-size: 32px;
 	padding-bottom: 0.5em;
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
 }
 
 p{
 	text-align: center;
-	color:gray;
+	color:orange;
 	padding-bottom: 0.5em;
-}
-textarea{
-	display:block;
+	font-family: Perpetua,Baskerville,Big Caslon,Palatino Linotype,Palatino,URW Palladio L,Nimbus Roman No9 L,serif;  
 }
 #bday{
 	padding-bottom: 0.5em;
